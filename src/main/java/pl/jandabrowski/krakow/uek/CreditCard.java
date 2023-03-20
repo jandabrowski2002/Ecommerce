@@ -20,4 +20,7 @@ public class CreditCard {
     public BigDecimal getCurrentBalance() {
         return balance;
     }
+
+    public void withdraw(BigDecimal valueOf) {
+    }
 }

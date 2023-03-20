@@ -9,20 +9,20 @@ public class Main {
         List<String> names = Arrays.asList("Jakub", "Michal", "Agnieszka", "Ola", "Kasia");
         names.add("Jasiek");
 
-        Greeter greeter = new Greeter();
-        greeter.greet("Jakub"); // -> Hello Jakub
+        //Greeter greeter = new Greeter();
+        //greeter.greet("Jakub"); // -> Hello Jakub
 
         // Greet only females
-        List<String> females = new ArrayList<String>();
-        for (String name : names){
-            if (name.endsWith("a")){
-                females.add(name);
+        //List<String> females = new ArrayList<String>();
+        //for (String name : names){
+            //if (name.endsWith("a")){
+                //females.add(name);
 
-            }
-        }
-        for (String ladyName : females){
-            greeter.greet(ladyName);
-        }
+           // }
+        //}
+        //for (String ladyName : females){
+       //     greeter.greet(ladyName);
+      //  }
 
         //names.stream()
                 //.filter(name -> name.endsWith("a"))
