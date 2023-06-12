@@ -1,4 +1,4 @@
-package pl.jkanclerz.payu;
+package pl.jandabrowski.payu;
 
 public class Product {
     private String name;

@@ -1,4 +1,4 @@
-package pl.jkanclerz;
+package pl.jandabrowski;
 
 
 import org.springframework.boot.SpringApplication;
